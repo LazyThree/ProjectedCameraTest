@@ -161,18 +161,29 @@
         inspector="url: https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js" 
             arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
             <a-camera 
-                gps-projected-camera ='simulateLatitude: 30.265300; simulateLongitude: 120.120720' position='0 0 0'
+                gps-projected-camera ='simulateLatitude: 30.265290; simulateLongitude: 120.120750' position='0 20 0'
                 look-controls-enabled='false' 
                 arjs-device-orientation-controls='smoothingFactor: 0.1'>
             </a-camera>
-            <a-entity gps-projected-entity='simulateLatitude: 30.265590; simulateLongitude: 120.120910' geometry="primitive: box">
+            
+            <a-entity gps-projected-entity='simulateLatitude: 30.265330; simulateLongitude: 120.120640' geometry="primitive: box; width: 1; height: 1; depth: 1">
             </a-entity>
-            <a-entity gps-projected-entity='simulateLatitude: 30.266490; simulateLongitude: 120.121010' geometry="primitive: box">
+           
+            <a-entity gps-projected-entity='simulateLatitude: 30.265260; simulateLongitude: 120.120850' geometry="primitive: circle; radius: 1">
             </a-entity>
-            <a-entity gps-projected-entity='simulateLatitude: 30.266470; simulateLongitude: 120.121890' geometry="primitive: box">
+            
+            <a-entity gps-projected-entity='simulateLatitude: 30.265500; simulateLongitude: 120.120700' geometry="primitive: cylinder; height: 3; radius: 2">
             </a-entity>
-            <a-entity gps-projected-entity='simulateLatitude: 30.266870; simulateLongitude: 120.121420' geometry="primitive: box">
+           
+            <a-entity gps-projected-entity='simulateLatitude: 30.265500; simulateLongitude: 120.120810' geometry="primitive: sphere; radius: 2">
             </a-entity>
+
+            <a-entity gps-projected-entity='simulateLatitude: 30.265470; simulateLongitude: 120.120910' geometry="primitive: cylinder; height: 3; radius: 2">
+            </a-entity>
+
+            <a-entity gps-projected-entity='simulateLatitude: 30.265360; simulateLongitude: 120.121000' geometry="primitive: cylinder; height: 3; radius: 2">
+            </a-entity>
+      
         </a-scene>
     </body>
 </html>
